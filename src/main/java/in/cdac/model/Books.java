@@ -20,6 +20,7 @@ public class Books {
 	private String author;
 	@Column
 	private int price;
+	private int pages;
 
 	public int getBookid() {
 		return bookid;

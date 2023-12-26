@@ -13,7 +13,7 @@ import in.cdac.repository.BooksRepository;
 public class BooksService {
 	@Autowired
 	BooksRepository booksRepository;
-
+	BooksRepository booksRepository2;
 //getting all books record by using the method findaAll() of CrudRepository
 	public List<Books> getAllBooks() {
 		List<Books> books = new ArrayList<Books>();
